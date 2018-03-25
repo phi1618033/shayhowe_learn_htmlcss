@@ -1,0 +1,62 @@
+.page-title {
+    color: rgb(35, 58,135);
+}
+
+.section-title {
+    color: rgba(85, 53, 31, 0.8);
+}
+
+.geo-shape {
+    display: inline-block;
+}
+
+.shapes {
+    margin-bottom: 15px;
+}
+
+#rectangle {
+    border: 3px solid transparent;
+    width: 135px;
+    height: 85px;
+    line-height: 80px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+}
+
+#square {
+    border: 3px solid;
+    border-color: green green orange orange;
+    width: 85px;
+    height: 85px;
+    line-height: 80px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: white;
+    color: greenyellow;
+    font-weight: bold;
+}
+
+#circle {
+    border: 3px solid transparent;
+    width: 85px;
+    height: 85px;
+    line-height: 80px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background-color: green;
+    color: orange;
+    font-weight: bold;
+}
+
+#triangle {
+    width: 0px;
+    height: 0px;
+    /* border-top: 50px solid transparent; */
+    border-left: 50px solid transparent;
+    border-bottom: 85px solid greenyellow;
+    border-right: 50px solid transparent;
+}
